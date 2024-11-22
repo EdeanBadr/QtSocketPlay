@@ -1,5 +1,5 @@
 CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: \
- /home/badr-eddine/StreamAPP2/build/server/moc_DecodingWorker.cpp \
+ /home/badr-eddine/QtSocketPlay/build/server/moc_DecodingWorker.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -112,7 +112,7 @@ CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /home/badr-eddine/StreamAPP2/build/server/../../server/DecodingWorker.h \
+ /home/badr-eddine/QtSocketPlay/build/server/../../server/DecodingWorker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -319,7 +319,7 @@ CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
- /home/badr-eddine/StreamAPP2/build/server/../../server/ThreadSafeQueue.h \
+ /home/badr-eddine/QtSocketPlay/build/server/../../server/ThreadSafeQueue.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/mutex \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/badr-eddine/StreamAPP2
+CMAKE_SOURCE_DIR = /home/badr-eddine/QtSocketPlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/badr-eddine/StreamAPP2/build
+CMAKE_BINARY_DIR = /home/badr-eddine/QtSocketPlay/build
 
 # Utility rule file for client_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/client_autogen: client_autogen/timestamp
 
 client_autogen/timestamp: /usr/lib/qt5/bin/moc
 client_autogen/timestamp: CMakeFiles/client_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target client"
-	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/StreamAPP2/build/CMakeFiles/client_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/badr-eddine/StreamAPP2/build/client_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target client"
+	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/badr-eddine/QtSocketPlay/build/client_autogen/timestamp
 
 client_autogen: CMakeFiles/client_autogen
 client_autogen: client_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/client_autogen.dir/clean:
 .PHONY : CMakeFiles/client_autogen.dir/clean
 
 CMakeFiles/client_autogen.dir/depend:
-	cd /home/badr-eddine/StreamAPP2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build/CMakeFiles/client_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/badr-eddine/QtSocketPlay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/client_autogen.dir/depend
 

@@ -83,12 +83,7 @@ public slots:
             AVFrame* frame = av_frame_alloc();
             if (avcodec_receive_frame(codec_context, frame) == 0) {
                 img = getQImageFromFrame(frame);
-                
-                if (frameQueue.size()>100){
-                    std::this_thread::sleep_for(milliseconds(100));
-                }
                 frameQueue.push(img);
-                std::cout<<"the size is: "<<frameQueue.size()<<std::endl;
             }
             av_frame_free(&frame);
         }

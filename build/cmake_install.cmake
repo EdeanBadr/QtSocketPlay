@@ -1,4 +1,4 @@
-# Install script for directory: /home/badr-eddine/StreamAPP2
+# Install script for directory: /home/badr-eddine/QtSocketPlay
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/badr-eddine/StreamAPP2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/badr-eddine/QtSocketPlay/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

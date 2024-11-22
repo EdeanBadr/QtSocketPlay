@@ -66,7 +66,6 @@ public slots:
                 emit errorOccurred("Failed to receive packet.");
                 break;
             }
-             std::cout<<"packet was sent"<<std::endl;
              emit packetReady(packet);           
         }
     }

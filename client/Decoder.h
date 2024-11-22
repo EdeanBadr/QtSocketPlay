@@ -103,8 +103,8 @@ private:
     }
 
     AVFormatContext* format_context;
-    AVCodecContext* codec_context;
-    const AVCodec* codec;
+    AVCodecContext* codec_context= new AVCodecContext;
+    const AVCodec* codec= new AVCodec;
     int video_stream_index;
     AVPacket packet;
 };

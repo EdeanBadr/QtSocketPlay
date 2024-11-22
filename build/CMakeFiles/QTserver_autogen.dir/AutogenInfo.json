@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/home/badr-eddine/StreamAPP2/build/QTserver_autogen",
-	"CMAKE_BINARY_DIR" : "/home/badr-eddine/StreamAPP2/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/badr-eddine/StreamAPP2/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/badr-eddine/StreamAPP2",
+	"BUILD_DIR" : "/home/badr-eddine/QtSocketPlay/build/QTserver_autogen",
+	"CMAKE_BINARY_DIR" : "/home/badr-eddine/QtSocketPlay/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/badr-eddine/QtSocketPlay/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/badr-eddine/QtSocketPlay",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/badr-eddine/StreamAPP2/CMakeLists.txt",
-		"/home/badr-eddine/StreamAPP2/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
+		"/home/badr-eddine/QtSocketPlay/CMakeLists.txt",
+		"/home/badr-eddine/QtSocketPlay/build/CMakeFiles/3.28.3/CMakeSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake",
-		"/home/badr-eddine/StreamAPP2/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
+		"/home/badr-eddine/QtSocketPlay/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake",
@@ -85,13 +85,13 @@
 		"/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/badr-eddine/StreamAPP2",
-	"DEP_FILE" : "/home/badr-eddine/StreamAPP2/build/QTserver_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "/home/badr-eddine/QtSocketPlay",
+	"DEP_FILE" : "/home/badr-eddine/QtSocketPlay/build/QTserver_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "QTserver_autogen/timestamp",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/badr-eddine/StreamAPP2/build/QTserver_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/badr-eddine/StreamAPP2/build/QTserver_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/badr-eddine/QtSocketPlay/build/QTserver_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/badr-eddine/QtSocketPlay/build/QTserver_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -139,25 +139,26 @@
 		"-c",
 		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/badr-eddine/StreamAPP2/build/QTserver_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/badr-eddine/QtSocketPlay/build/QTserver_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/badr-eddine/StreamAPP2/server/DecodingWorker.h",
-		"/home/badr-eddine/StreamAPP2/server/ReceptionWorker.h",
-		"/home/badr-eddine/StreamAPP2/server/RenderingWorker.h"
+		"/home/badr-eddine/QtSocketPlay/server/ConnectionThread.h",
+		"/home/badr-eddine/QtSocketPlay/server/DecodingWorker.h",
+		"/home/badr-eddine/QtSocketPlay/server/ReceptionWorker.h",
+		"/home/badr-eddine/QtSocketPlay/server/RenderingWorker.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/badr-eddine/StreamAPP2/build/CMakeFiles/QTserver_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/home/badr-eddine/StreamAPP2/build/CMakeFiles/QTserver_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/badr-eddine/StreamAPP2/server/server.cpp", "Mu", null ]
+		[ "/home/badr-eddine/QtSocketPlay/server/server.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

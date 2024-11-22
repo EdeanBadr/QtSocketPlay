@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/badr-eddine/StreamAPP2
+CMAKE_SOURCE_DIR = /home/badr-eddine/QtSocketPlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/badr-eddine/StreamAPP2/build
+CMAKE_BINARY_DIR = /home/badr-eddine/QtSocketPlay/build
 
 # Utility rule file for client_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/client_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/client_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/client_autogen_timestamp_deps.dir/depend:
-	cd /home/badr-eddine/StreamAPP2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build/CMakeFiles/client_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/badr-eddine/QtSocketPlay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/client_autogen_timestamp_deps.dir/depend
 

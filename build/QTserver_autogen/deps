@@ -1,8 +1,8 @@
 QTserver_autogen/timestamp: \
-	/home/badr-eddine/StreamAPP2/CMakeLists.txt \
-	/home/badr-eddine/StreamAPP2/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
-	/home/badr-eddine/StreamAPP2/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
-	/home/badr-eddine/StreamAPP2/server/server.cpp \
+	/home/badr-eddine/QtSocketPlay/CMakeLists.txt \
+	/home/badr-eddine/QtSocketPlay/build/CMakeFiles/3.28.3/CMakeCXXCompiler.cmake \
+	/home/badr-eddine/QtSocketPlay/build/CMakeFiles/3.28.3/CMakeSystem.cmake \
+	/home/badr-eddine/QtSocketPlay/server/server.cpp \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake \

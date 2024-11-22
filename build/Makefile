@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/badr-eddine/StreamAPP2
+CMAKE_SOURCE_DIR = /home/badr-eddine/QtSocketPlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/badr-eddine/StreamAPP2/build
+CMAKE_BINARY_DIR = /home/badr-eddine/QtSocketPlay/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badr-eddine/StreamAPP2/build/CMakeFiles /home/badr-eddine/StreamAPP2/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badr-eddine/QtSocketPlay/build/CMakeFiles /home/badr-eddine/QtSocketPlay/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/badr-eddine/StreamAPP2/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/badr-eddine/QtSocketPlay/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -266,6 +266,30 @@ client_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 .PHONY : client_autogen/mocs_compilation.cpp.s
 
+server/moc_ConnectionThread.o: server/moc_ConnectionThread.cpp.o
+.PHONY : server/moc_ConnectionThread.o
+
+# target to build an object file
+server/moc_ConnectionThread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o
+.PHONY : server/moc_ConnectionThread.cpp.o
+
+server/moc_ConnectionThread.i: server/moc_ConnectionThread.cpp.i
+.PHONY : server/moc_ConnectionThread.i
+
+# target to preprocess a source file
+server/moc_ConnectionThread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.i
+.PHONY : server/moc_ConnectionThread.cpp.i
+
+server/moc_ConnectionThread.s: server/moc_ConnectionThread.cpp.s
+.PHONY : server/moc_ConnectionThread.s
+
+# target to generate assembly for a file
+server/moc_ConnectionThread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.s
+.PHONY : server/moc_ConnectionThread.cpp.s
+
 server/moc_DecodingWorker.o: server/moc_DecodingWorker.cpp.o
 .PHONY : server/moc_DecodingWorker.o
 
@@ -385,6 +409,9 @@ help:
 	@echo "... client_autogen/mocs_compilation.o"
 	@echo "... client_autogen/mocs_compilation.i"
 	@echo "... client_autogen/mocs_compilation.s"
+	@echo "... server/moc_ConnectionThread.o"
+	@echo "... server/moc_ConnectionThread.i"
+	@echo "... server/moc_ConnectionThread.s"
 	@echo "... server/moc_DecodingWorker.o"
 	@echo "... server/moc_DecodingWorker.i"
 	@echo "... server/moc_DecodingWorker.s"

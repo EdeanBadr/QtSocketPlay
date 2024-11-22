@@ -1,5 +1,5 @@
 CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: \
- /home/badr-eddine/StreamAPP2/build/server/moc_ReceptionWorker.cpp \
+ /home/badr-eddine/QtSocketPlay/build/server/moc_ReceptionWorker.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -112,7 +112,7 @@ CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /home/badr-eddine/StreamAPP2/build/server/../../server/ReceptionWorker.h \
+ /home/badr-eddine/QtSocketPlay/build/server/../../server/ReceptionWorker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \

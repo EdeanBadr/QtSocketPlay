@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/badr-eddine/StreamAPP2
+CMAKE_SOURCE_DIR = /home/badr-eddine/QtSocketPlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/badr-eddine/StreamAPP2/build
+CMAKE_BINARY_DIR = /home/badr-eddine/QtSocketPlay/build
 
 # Utility rule file for QTserver_autogen_timestamp_deps.
 
@@ -66,12 +66,12 @@ include CMakeFiles/QTserver_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/QTserver_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
-CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
-CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
-CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13
+CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
+CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
+CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5.15.13
+CMakeFiles/QTserver_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13
 
 QTserver_autogen_timestamp_deps: CMakeFiles/QTserver_autogen_timestamp_deps
 QTserver_autogen_timestamp_deps: CMakeFiles/QTserver_autogen_timestamp_deps.dir/build.make
@@ -86,6 +86,6 @@ CMakeFiles/QTserver_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/QTserver_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/QTserver_autogen_timestamp_deps.dir/depend:
-	cd /home/badr-eddine/StreamAPP2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build/CMakeFiles/QTserver_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/badr-eddine/QtSocketPlay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/QTserver_autogen_timestamp_deps.dir/depend
 

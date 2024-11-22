@@ -1,5 +1,5 @@
 CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: \
- /home/badr-eddine/StreamAPP2/build/server/moc_RenderingWorker.cpp \
+ /home/badr-eddine/QtSocketPlay/build/server/moc_RenderingWorker.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -112,7 +112,7 @@ CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /home/badr-eddine/StreamAPP2/build/server/../../server/RenderingWorker.h \
+ /home/badr-eddine/QtSocketPlay/build/server/../../server/RenderingWorker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QThread \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
@@ -296,7 +296,7 @@ CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/thread \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/badr-eddine/StreamAPP2/build/server/../../server/ThreadSafeQueue.h \
+ /home/badr-eddine/QtSocketPlay/build/server/../../server/ThreadSafeQueue.h \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h

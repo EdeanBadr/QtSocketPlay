@@ -22,6 +22,7 @@ set(HEADERS
     server/ReceptionWorker.h
     server/DecodingWorker.h
     server/RenderingWorker.h
+    server/ConnectionThread.h
 )
 
 # Wrap Qt headers with moc

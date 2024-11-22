@@ -88,18 +88,17 @@ public:
     }
 
     void close() {
-        if (codec_context) {
-            avcodec_free_context(&codec_context);
-        }
+        delete codec_context;
+        delete stream;
     }
     static int64_t htonll(int64_t value) {
         return (((int64_t)htonl(value & 0xFFFFFFFF)) << 32) | htonl(value >> 32);
     }
 
 private:
-    AVCodecContext* codec_context;
-    AVStream* stream;
-    const AVCodec* codec;
+    AVCodecContext* codec_context= new AVCodecContext;
+    AVStream* stream= new AVStream;
+    const AVCodec* codec=new AVCodec;
     int socket_fd;
     AVRational time_base = {1, 15};
     AVRational framerate = {15, 1};

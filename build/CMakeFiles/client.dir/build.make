@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/badr-eddine/StreamAPP2
+CMAKE_SOURCE_DIR = /home/badr-eddine/QtSocketPlay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/badr-eddine/StreamAPP2/build
+CMAKE_BINARY_DIR = /home/badr-eddine/QtSocketPlay/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -71,37 +71,37 @@ include CMakeFiles/client.dir/flags.make
 
 client_autogen/timestamp: /usr/lib/qt5/bin/moc
 client_autogen/timestamp: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target client"
-	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/StreamAPP2/build/CMakeFiles/client_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/badr-eddine/StreamAPP2/build/client_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target client"
+	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/badr-eddine/QtSocketPlay/build/client_autogen/timestamp
 
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: client_autogen/mocs_compilation.cpp
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -MF CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -c /home/badr-eddine/StreamAPP2/build/client_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -MF CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o -c /home/badr-eddine/QtSocketPlay/build/client_autogen/mocs_compilation.cpp
 
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/build/client_autogen/mocs_compilation.cpp > CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/QtSocketPlay/build/client_autogen/mocs_compilation.cpp > CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/build/client_autogen/mocs_compilation.cpp -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/QtSocketPlay/build/client_autogen/mocs_compilation.cpp -o CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/client.dir/client/client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/client/client.cpp.o: /home/badr-eddine/StreamAPP2/client/client.cpp
+CMakeFiles/client.dir/client/client.cpp.o: /home/badr-eddine/QtSocketPlay/client/client.cpp
 CMakeFiles/client.dir/client/client.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/client/client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client/client.cpp.o -MF CMakeFiles/client.dir/client/client.cpp.o.d -o CMakeFiles/client.dir/client/client.cpp.o -c /home/badr-eddine/StreamAPP2/client/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/client/client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client/client.cpp.o -MF CMakeFiles/client.dir/client/client.cpp.o.d -o CMakeFiles/client.dir/client/client.cpp.o -c /home/badr-eddine/QtSocketPlay/client/client.cpp
 
 CMakeFiles/client.dir/client/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/client.dir/client/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/StreamAPP2/client/client.cpp > CMakeFiles/client.dir/client/client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/QtSocketPlay/client/client.cpp > CMakeFiles/client.dir/client/client.cpp.i
 
 CMakeFiles/client.dir/client/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/client.dir/client/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/StreamAPP2/client/client.cpp -o CMakeFiles/client.dir/client/client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/QtSocketPlay/client/client.cpp -o CMakeFiles/client.dir/client/client.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -115,7 +115,7 @@ client: CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o
 client: CMakeFiles/client.dir/client/client.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/StreamAPP2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend: client_autogen/timestamp
-	cd /home/badr-eddine/StreamAPP2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2 /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build /home/badr-eddine/StreamAPP2/build/CMakeFiles/client.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/badr-eddine/QtSocketPlay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/client.dir/depend
 

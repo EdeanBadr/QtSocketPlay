@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/badr-eddine/StreamAPP2/build/client_autogen/include
+CXX_INCLUDES = -I/home/badr-eddine/QtSocketPlay/build/client_autogen/include
 
 CXX_FLAGS = -std=gnu++14
 

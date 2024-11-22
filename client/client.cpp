@@ -50,16 +50,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-  
-
     AVFrame* input_frame = av_frame_alloc();
-    AVFrame* output_frame = av_frame_alloc();
-
-    output_frame->format = AV_PIX_FMT_YUV420P;
-    output_frame->width = decoder.getWidth();
-    output_frame->height = decoder.getHeight();
-    av_frame_get_buffer(output_frame, 0);
-
     while (decoder.readFrame(input_frame)) {
             encoder.writeFrame(input_frame);  
         }
