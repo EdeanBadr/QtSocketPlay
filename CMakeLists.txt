@@ -5,6 +5,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(StreamAndVideoProcessing VERSION 1.0 LANGUAGES CXX)
 
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+    set(SANITIZE_FLAGS "-fsanitize=address -fno-omit-frame-pointer -g")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${SANITIZE_FLAGS}")
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${SANITIZE_FLAGS}")
+    set(SANITIZE_FLAGS "-fsanitize=address,leak -fno-omit-frame-pointer -g")
+
+endif()
+
 # Enable automoc for Qt
 set(CMAKE_AUTOMOC ON)
 
@@ -23,6 +31,7 @@ set(HEADERS
     server/DecodingWorker.h
     server/RenderingWorker.h
     server/ConnectionThread.h
+    server/AcceptWorker.h
 )
 
 # Wrap Qt headers with moc

@@ -63,7 +63,6 @@ public slots:
             av_init_packet(&packet);
             if (!receivePacket(socket_fd, &packet)) {
                 std::cerr << "Failed to receive packet" << std::endl;
-                emit errorOccurred("Failed to receive packet.");
                 break;
             }
              emit packetReady(packet);           

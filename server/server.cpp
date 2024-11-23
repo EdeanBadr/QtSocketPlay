@@ -29,7 +29,6 @@ int main(int argc, char* argv[]) {
     QApplication app(argc, argv);
     qRegisterMetaType<AVPacket>("AVPacket");
 
-    // Socket setup
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
     if (server_fd == 0) {
         std::cerr << "Socket creation failed" << std::endl;

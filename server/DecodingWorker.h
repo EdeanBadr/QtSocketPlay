@@ -68,7 +68,6 @@ public:
     }
 
 signals:
-    void frameReady(const QImage& frame);
     void errorOccurred(const QString& error);
 
 public slots:
@@ -93,5 +92,6 @@ public slots:
 private:
     AVCodecContext* codec_context;
     ThreadSafeQueue<QImage>& frameQueue;
-    QImage img;
+    QImage* adress_of_img= new QImage;
+    QImage img= *adress_of_img;
 };

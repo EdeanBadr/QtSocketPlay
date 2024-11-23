@@ -20,7 +20,7 @@ void run() override {
     QImage* frame = new QImage;
     QImage* scaledImage = new QImage;
     auto sleepDuration = std::chrono::milliseconds(1000 / targetFPS);
-    const int waitTime = 4; 
+    const int waitTime = 2; 
     auto lastFrameTime = std::chrono::steady_clock::now();
     int targetWidth=0;
     int targetHeight=0;
