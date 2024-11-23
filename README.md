@@ -74,8 +74,10 @@ QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg
 
 ## Demo Video
 A demo video showcasing the creation of 4 streams and how the layout dynamically adapts as streams are added or removed is included in this repository.
+![Description of GIF](screenCast.gif)
 
 [Click here to view the demo video](screenCast.mp4)
+
 
 You can also play it locally:
 ```bash
