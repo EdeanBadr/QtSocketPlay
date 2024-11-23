@@ -1,7 +1,7 @@
 # **QtSocketPlay**
 
 ### **Overview**
-QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg. It supports multiple client connections and streams video efficiently using socket-based communication.
+QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg. It supports multiple client connections and streams video efficiently using socket-based communication. The project demonstrates advanced usage of multimedia processing, threading, and networking within a C++/Qt framework.
 
 ---
 
@@ -72,14 +72,17 @@ QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg
 
 ---
 
+## Demo Video
+A demo video showcasing the creation of 4 streams and how the layout dynamically adapts as streams are added or removed is included in this repository.
 
-### **Known Issues**
-- **QThread Warning:** Ensure threads are cleaned up properly before the application exits.
-- **Memory Leaks:** Use AddressSanitizer to detect and resolve leaks.
-- **Segmentation Faults:** Verify resource deallocation during multithreaded operations.
+[Click here to view the demo video](screenCast.mp4)
+
+You can also play it locally:
+```bash
+mpv screenCast.mp4  # or use any media player
+```
 
 ---
-
 
 ### **Contributing**
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
@@ -91,9 +94,5 @@ Contributions are welcome! Feel free to submit a pull request or open an issue f
 
 ---
 
-### **Screenshots**
-Below is an example layout when 4 streams are active:
 
-![4 Streams Layout](LayoutScreenshot.png)
 
----
