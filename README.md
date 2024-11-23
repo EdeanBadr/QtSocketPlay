@@ -80,13 +80,6 @@ QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg
 
 ---
 
-### **Future Enhancements**
-- Add support for video encoding to H.264 or HLS.
-- Improve error handling for client-server communication.
-- Add unit tests for core functionality.
-- Enhance layout management for edge cases (e.g., very high or low client counts).
-
----
 
 ### **Contributing**
 Contributions are welcome! Feel free to submit a pull request or open an issue for any bugs or feature requests.
