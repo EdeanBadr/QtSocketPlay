@@ -1,7 +1,7 @@
 # **QtSocketPlay**
 
 ### **Overview**
-QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg. It supports multiple client connections and streams video efficiently using socket-based communication. The project demonstrates advanced usage of multimedia processing, threading, and networking within a C++/Qt framework.
+QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg. It supports multiple client connections and streams video efficiently using socket-based communication.
 
 ---
 
