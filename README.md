@@ -72,22 +72,6 @@ QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg
 
 ---
 
-### **Project Structure**
-```
-QtSocketPlay/
-├── client/                  # Client-side implementation
-│   ├── client.cpp           # Main client logic
-│   ├── Encoder.h            # Encoder class for video encoding
-├── server/                  # Server-side implementation
-│   ├── server.cpp           # Main server logic
-│   ├── StreamManager.h      # Manages client streams
-├── ui/                      # User interface components
-│   ├── mainwindow.ui        # Qt Designer file for the UI
-├── CMakeLists.txt           # Build configuration
-└── README.md                # Documentation (this file)
-```
-
----
 
 ### **Known Issues**
 - **QThread Warning:** Ensure threads are cleaned up properly before the application exits.
