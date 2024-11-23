@@ -72,7 +72,7 @@ include CMakeFiles/client.dir/flags.make
 client_autogen/timestamp: /usr/lib/qt5/bin/moc
 client_autogen/timestamp: CMakeFiles/client.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target client"
-	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/badr-eddine/QtSocketPlay/build/client_autogen/timestamp
 
 CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.o: CMakeFiles/client.dir/flags.make

@@ -85,16 +85,20 @@ server/moc_ConnectionThread.cpp: /home/badr-eddine/QtSocketPlay/server/Connectio
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating server/moc_ConnectionThread.cpp"
 	cd /home/badr-eddine/QtSocketPlay/build/server && /usr/lib/qt5/bin/moc @/home/badr-eddine/QtSocketPlay/build/server/moc_ConnectionThread.cpp_parameters
 
+server/moc_AcceptWorker.cpp: /home/badr-eddine/QtSocketPlay/server/AcceptWorker.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating server/moc_AcceptWorker.cpp"
+	cd /home/badr-eddine/QtSocketPlay/build/server && /usr/lib/qt5/bin/moc @/home/badr-eddine/QtSocketPlay/build/server/moc_AcceptWorker.cpp_parameters
+
 QTserver_autogen/timestamp: /usr/lib/qt5/bin/moc
 QTserver_autogen/timestamp: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC for target QTserver"
-	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Automatic MOC for target QTserver"
+	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/badr-eddine/QtSocketPlay/build/QTserver_autogen/timestamp
 
 CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o: QTserver_autogen/mocs_compilation.cpp
 CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o -MF CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o -c /home/badr-eddine/QtSocketPlay/build/QTserver_autogen/mocs_compilation.cpp
 
 CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.i: cmake_force
@@ -108,7 +112,7 @@ CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/QTserver.dir/server/server.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/server/server.cpp.o: /home/badr-eddine/QtSocketPlay/server/server.cpp
 CMakeFiles/QTserver.dir/server/server.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/QTserver.dir/server/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/QTserver.dir/server/server.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/server.cpp.o -MF CMakeFiles/QTserver.dir/server/server.cpp.o.d -o CMakeFiles/QTserver.dir/server/server.cpp.o -c /home/badr-eddine/QtSocketPlay/server/server.cpp
 
 CMakeFiles/QTserver.dir/server/server.cpp.i: cmake_force
@@ -122,7 +126,7 @@ CMakeFiles/QTserver.dir/server/server.cpp.s: cmake_force
 CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: server/moc_ReceptionWorker.cpp
 CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o -MF CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o.d -o CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o -c /home/badr-eddine/QtSocketPlay/build/server/moc_ReceptionWorker.cpp
 
 CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.i: cmake_force
@@ -136,7 +140,7 @@ CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.s: cmake_force
 CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: server/moc_DecodingWorker.cpp
 CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o -MF CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o.d -o CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o -c /home/badr-eddine/QtSocketPlay/build/server/moc_DecodingWorker.cpp
 
 CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.i: cmake_force
@@ -150,7 +154,7 @@ CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.s: cmake_force
 CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: server/moc_RenderingWorker.cpp
 CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o -MF CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o.d -o CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o -c /home/badr-eddine/QtSocketPlay/build/server/moc_RenderingWorker.cpp
 
 CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.i: cmake_force
@@ -164,7 +168,7 @@ CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.s: cmake_force
 CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o: CMakeFiles/QTserver.dir/flags.make
 CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o: server/moc_ConnectionThread.cpp
 CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o -MF CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o.d -o CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o -c /home/badr-eddine/QtSocketPlay/build/server/moc_ConnectionThread.cpp
 
 CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.i: cmake_force
@@ -175,6 +179,20 @@ CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/QtSocketPlay/build/server/moc_ConnectionThread.cpp -o CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.s
 
+CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o: CMakeFiles/QTserver.dir/flags.make
+CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o: server/moc_AcceptWorker.cpp
+CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o: CMakeFiles/QTserver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o -MF CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o.d -o CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o -c /home/badr-eddine/QtSocketPlay/build/server/moc_AcceptWorker.cpp
+
+CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/badr-eddine/QtSocketPlay/build/server/moc_AcceptWorker.cpp > CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.i
+
+CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/badr-eddine/QtSocketPlay/build/server/moc_AcceptWorker.cpp -o CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.s
+
 # Object files for target QTserver
 QTserver_OBJECTS = \
 "CMakeFiles/QTserver.dir/QTserver_autogen/mocs_compilation.cpp.o" \
@@ -182,7 +200,8 @@ QTserver_OBJECTS = \
 "CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o" \
 "CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o" \
 "CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o" \
-"CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o"
+"CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o" \
+"CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o"
 
 # External object files for target QTserver
 QTserver_EXTERNAL_OBJECTS =
@@ -193,6 +212,7 @@ QTserver: CMakeFiles/QTserver.dir/server/moc_ReceptionWorker.cpp.o
 QTserver: CMakeFiles/QTserver.dir/server/moc_DecodingWorker.cpp.o
 QTserver: CMakeFiles/QTserver.dir/server/moc_RenderingWorker.cpp.o
 QTserver: CMakeFiles/QTserver.dir/server/moc_ConnectionThread.cpp.o
+QTserver: CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o
 QTserver: CMakeFiles/QTserver.dir/build.make
 QTserver: /usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5.15.13
 QTserver: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.13
@@ -201,7 +221,7 @@ QTserver: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.13
 QTserver: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.13
 QTserver: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
 QTserver: CMakeFiles/QTserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable QTserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable QTserver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/QTserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -213,6 +233,7 @@ CMakeFiles/QTserver.dir/clean:
 .PHONY : CMakeFiles/QTserver.dir/clean
 
 CMakeFiles/QTserver.dir/depend: QTserver_autogen/timestamp
+CMakeFiles/QTserver.dir/depend: server/moc_AcceptWorker.cpp
 CMakeFiles/QTserver.dir/depend: server/moc_ConnectionThread.cpp
 CMakeFiles/QTserver.dir/depend: server/moc_DecodingWorker.cpp
 CMakeFiles/QTserver.dir/depend: server/moc_ReceptionWorker.cpp

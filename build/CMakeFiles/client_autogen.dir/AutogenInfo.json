@@ -126,6 +126,7 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"/home/badr-eddine/QtSocketPlay/server/AcceptWorker.h",
 		"/home/badr-eddine/QtSocketPlay/server/ConnectionThread.h",
 		"/home/badr-eddine/QtSocketPlay/server/DecodingWorker.h",
 		"/home/badr-eddine/QtSocketPlay/server/ReceptionWorker.h",

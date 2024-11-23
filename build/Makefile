@@ -266,6 +266,30 @@ client_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client_autogen/mocs_compilation.cpp.s
 .PHONY : client_autogen/mocs_compilation.cpp.s
 
+server/moc_AcceptWorker.o: server/moc_AcceptWorker.cpp.o
+.PHONY : server/moc_AcceptWorker.o
+
+# target to build an object file
+server/moc_AcceptWorker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.o
+.PHONY : server/moc_AcceptWorker.cpp.o
+
+server/moc_AcceptWorker.i: server/moc_AcceptWorker.cpp.i
+.PHONY : server/moc_AcceptWorker.i
+
+# target to preprocess a source file
+server/moc_AcceptWorker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.i
+.PHONY : server/moc_AcceptWorker.cpp.i
+
+server/moc_AcceptWorker.s: server/moc_AcceptWorker.cpp.s
+.PHONY : server/moc_AcceptWorker.s
+
+# target to generate assembly for a file
+server/moc_AcceptWorker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QTserver.dir/build.make CMakeFiles/QTserver.dir/server/moc_AcceptWorker.cpp.s
+.PHONY : server/moc_AcceptWorker.cpp.s
+
 server/moc_ConnectionThread.o: server/moc_ConnectionThread.cpp.o
 .PHONY : server/moc_ConnectionThread.o
 
@@ -409,6 +433,9 @@ help:
 	@echo "... client_autogen/mocs_compilation.o"
 	@echo "... client_autogen/mocs_compilation.i"
 	@echo "... client_autogen/mocs_compilation.s"
+	@echo "... server/moc_AcceptWorker.o"
+	@echo "... server/moc_AcceptWorker.i"
+	@echo "... server/moc_AcceptWorker.s"
 	@echo "... server/moc_ConnectionThread.o"
 	@echo "... server/moc_ConnectionThread.i"
 	@echo "... server/moc_ConnectionThread.s"

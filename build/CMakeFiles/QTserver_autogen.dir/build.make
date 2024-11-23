@@ -71,7 +71,7 @@ CMakeFiles/QTserver_autogen: QTserver_autogen/timestamp
 QTserver_autogen/timestamp: /usr/lib/qt5/bin/moc
 QTserver_autogen/timestamp: CMakeFiles/QTserver_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/badr-eddine/QtSocketPlay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target QTserver"
-	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E cmake_autogen /home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir/AutogenInfo.json Debug
 	/usr/bin/cmake -E touch /home/badr-eddine/QtSocketPlay/build/QTserver_autogen/timestamp
 
 QTserver_autogen: CMakeFiles/QTserver_autogen

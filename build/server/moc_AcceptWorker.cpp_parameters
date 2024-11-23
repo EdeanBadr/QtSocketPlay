@@ -1,0 +1,4 @@
+-I/usr/include/x86_64-linux-gnu
+-o
+/home/badr-eddine/QtSocketPlay/build/server/moc_AcceptWorker.cpp
+/home/badr-eddine/QtSocketPlay/server/AcceptWorker.h

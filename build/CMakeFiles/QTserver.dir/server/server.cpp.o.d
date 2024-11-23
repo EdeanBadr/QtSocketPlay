@@ -422,4 +422,5 @@ CMakeFiles/QTserver.dir/server/server.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
  /home/badr-eddine/QtSocketPlay/server/RenderingWorker.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /home/badr-eddine/QtSocketPlay/server/AcceptWorker.h

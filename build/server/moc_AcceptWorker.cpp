@@ -1,5 +1,5 @@
 /****************************************************************************
-** Meta object code from reading C++ file 'DecodingWorker.h'
+** Meta object code from reading C++ file 'AcceptWorker.h'
 **
 ** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.13)
 **
@@ -7,11 +7,11 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../server/DecodingWorker.h"
+#include "../../server/AcceptWorker.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
-#error "The header file 'DecodingWorker.h' doesn't include <QObject>."
+#error "The header file 'AcceptWorker.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
 #error "This file was generated using the moc from 5.15.13. It"
 #error "cannot be used with the include files from this version of Qt."
@@ -21,38 +21,37 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_DecodingWorker_t {
-    QByteArrayData data[7];
-    char stringdata0[61];
+struct qt_meta_stringdata_AcceptWorker_t {
+    QByteArrayData data[6];
+    char stringdata0[55];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_DecodingWorker_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_AcceptWorker_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_DecodingWorker_t qt_meta_stringdata_DecodingWorker = {
+static const qt_meta_stringdata_AcceptWorker_t qt_meta_stringdata_AcceptWorker = {
     {
-QT_MOC_LITERAL(0, 0, 14), // "DecodingWorker"
-QT_MOC_LITERAL(1, 15, 13), // "errorOccurred"
-QT_MOC_LITERAL(2, 29, 0), // ""
-QT_MOC_LITERAL(3, 30, 5), // "error"
-QT_MOC_LITERAL(4, 36, 8), // "getFrame"
-QT_MOC_LITERAL(5, 45, 8), // "AVPacket"
-QT_MOC_LITERAL(6, 54, 6) // "packet"
+QT_MOC_LITERAL(0, 0, 12), // "AcceptWorker"
+QT_MOC_LITERAL(1, 13, 13), // "newConnection"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 6), // "socket"
+QT_MOC_LITERAL(4, 35, 14), // "startAccepting"
+QT_MOC_LITERAL(5, 50, 4) // "stop"
 
     },
-    "DecodingWorker\0errorOccurred\0\0error\0"
-    "getFrame\0AVPacket\0packet"
+    "AcceptWorker\0newConnection\0\0socket\0"
+    "startAccepting\0stop"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_DecodingWorker[] = {
+static const uint qt_meta_data_AcceptWorker[] = {
 
  // content:
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -60,35 +59,38 @@ static const uint qt_meta_data_DecodingWorker[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   24,    2, 0x06 /* Public */,
+       1,    1,   29,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       4,    1,   27,    2, 0x0a /* Public */,
+       4,    0,   32,    2, 0x0a /* Public */,
+       5,    0,   33,    2, 0x0a /* Public */,
 
  // signals: parameters
-    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::Int,    3,
 
  // slots: parameters
-    QMetaType::Void, 0x80000000 | 5,    6,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
 
-void DecodingWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void AcceptWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        auto *_t = static_cast<DecodingWorker *>(_o);
+        auto *_t = static_cast<AcceptWorker *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->errorOccurred((*reinterpret_cast< const QString(*)>(_a[1]))); break;
-        case 1: _t->getFrame((*reinterpret_cast< const AVPacket(*)>(_a[1]))); break;
+        case 0: _t->newConnection((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->startAccepting(); break;
+        case 2: _t->stop(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (DecodingWorker::*)(const QString & );
-            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&DecodingWorker::errorOccurred)) {
+            using _t = void (AcceptWorker::*)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&AcceptWorker::newConnection)) {
                 *result = 0;
                 return;
             }
@@ -96,48 +98,48 @@ void DecodingWorker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     }
 }
 
-QT_INIT_METAOBJECT const QMetaObject DecodingWorker::staticMetaObject = { {
+QT_INIT_METAOBJECT const QMetaObject AcceptWorker::staticMetaObject = { {
     QMetaObject::SuperData::link<QObject::staticMetaObject>(),
-    qt_meta_stringdata_DecodingWorker.data,
-    qt_meta_data_DecodingWorker,
+    qt_meta_stringdata_AcceptWorker.data,
+    qt_meta_data_AcceptWorker,
     qt_static_metacall,
     nullptr,
     nullptr
 } };
 
 
-const QMetaObject *DecodingWorker::metaObject() const
+const QMetaObject *AcceptWorker::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *DecodingWorker::qt_metacast(const char *_clname)
+void *AcceptWorker::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_DecodingWorker.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_AcceptWorker.stringdata0))
         return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
-int DecodingWorker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int AcceptWorker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }
 
 // SIGNAL 0
-void DecodingWorker::errorOccurred(const QString & _t1)
+void AcceptWorker::newConnection(int _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

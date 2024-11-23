@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/badr-eddine/QtSocketPlay/build/client_autogen/include
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS =  -fsanitize=address -fno-omit-frame-pointer -g -g -std=gnu++14
 
