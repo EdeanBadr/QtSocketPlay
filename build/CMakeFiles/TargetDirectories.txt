@@ -1,8 +1,0 @@
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/client.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/edit_cache.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/rebuild_cache.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen_timestamp_deps.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/QTserver_autogen.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen_timestamp_deps.dir
-/home/badr-eddine/QtSocketPlay/build/CMakeFiles/client_autogen.dir
