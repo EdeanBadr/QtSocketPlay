@@ -35,7 +35,7 @@ QtSocketPlay is a real-time video streaming application built with Qt and FFmpeg
 ### **Installation**
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/username/QtSocketPlay.git
+   git clone https://github.com/EdeanBadr/QtSocketPlay.git
    cd QtSocketPlay
    ```
 
